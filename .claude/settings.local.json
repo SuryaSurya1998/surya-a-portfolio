@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/I4584/OneDrive - Indium Software India Private Limited/Downloads-Chrome/**)",
+      "Bash(python -c \":*)",
+      "Bash(BASE=\"C:\\\\Users\\\\I4584\\\\OneDrive - Indium Software India Private Limited\\\\Downloads-Chrome\")",
+      "Bash(cp -r \"$BASE/rajesh-portfolio-main/rajesh-portfolio-main\" \"$BASE/surya-portfolio\")"
+    ]
+  }
+}

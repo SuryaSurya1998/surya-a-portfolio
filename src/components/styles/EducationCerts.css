@@ -1,0 +1,161 @@
+/* ── Education & Certifications Section ── */
+.edu-certs-section {
+  position: relative;
+  z-index: 1;
+  background-color: var(--backgroundColor);
+  padding: 80px 0;
+}
+
+.edu-certs-container {
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* ── Shared heading ── */
+.edu-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--accentColor);
+  margin: 0 0 28px;
+}
+
+/* ── Education column ── */
+.edu-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.edu-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.edu-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 24px 28px;
+}
+
+.edu-period {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accentColor);
+  letter-spacing: 0.5px;
+}
+
+.edu-degree {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.edu-institution {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b8c1;
+}
+
+.edu-cgpa {
+  font-size: 13px;
+  font-weight: 300;
+  color: #7a8694;
+  margin-top: 4px;
+}
+
+/* ── Certifications column ── */
+.cert-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.cert-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cert-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 24px 28px;
+}
+
+.cert-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.cert-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+
+.cert-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cert-issuer {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b8c1;
+}
+
+.cert-dates {
+  font-size: 13px;
+  font-weight: 300;
+  color: #7a8694;
+}
+
+.cert-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accentColor);
+  text-decoration: none;
+  margin-top: 4px;
+  transition: opacity 0.2s;
+}
+
+.cert-link:hover {
+  opacity: 0.8;
+}
+
+/* ── AWS logo ── */
+.aws-logo {
+  width: 52px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ── Responsive ── */
+@media only screen and (max-width: 900px) {
+  .edu-certs-section {
+    padding: 50px 0;
+  }
+
+  .edu-certs-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .edu-heading {
+    font-size: 28px;
+  }
+}
